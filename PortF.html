@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="Port.css" />
+</head>
+<body>
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
+    <div style="display: flex; align-items: center;">
+      <img src="IMG .JPG" alt="My Photo" class="profile-pic" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-right: 20px;" />
+      <div>
+        <h1>Hi, I'm Ahil Ansari</h1>
+        <p>Web Developer | Cloud Archtechture | Problem Solver | App Developer |  </p>
+      </div>
+    </div>
+    <div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+    </div>
+  </header>
+
+  <section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate developer interested in cloud computing and web
+      technologies. I love building applications that solve real-world problems.
+    </p>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Institute Website</h3>
+      <p>A Website Where I made It for My Institute Of Cybersecurity.</p>
+      <a href="https://drunckenpoyet.github.io/cyber_Edu/Cyber_Edu.html" target="_blank" class="project-btn">View Project</a>
+    </div>
+    <div class="project">
+      <h3>A Website For A CNC Workshop</h3>
+      <p>Workshop for CNC & Art Of Carving Things .</p>
+      <a href="https://drunckenpoyet.github.io/The-Carve-Studio.in/CNC1.html" target="_blank" class="project-btn">View Project</a>
+    </div>
+    <div class="project">
+      <h3>QR Genrator</h3>
+      <p>QR Genrator For Any Website, Just pest URL of That Website .</p>
+      <a href="https://drunckenpoyet.github.io/QR.Generator-/" target="_blank" class="project-btn">View Project</a>
+    </div>
+    <div class="project">
+      <h3>A Ball Game</h3>
+      <p>Made for prectice Coding.</p>
+      <a href="https://drunckenpoyet.github.io/Ball-Run/" target="_blank" class="project-btn">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Registration Form</h3>
+      <p>Registration Form Of My Institute .</p>
+      <a href="https://drunckenpoyet.github.io/RegiForm/Regisrtation.html" target="_blank" class="project-btn">View Project</a>
+    </div>
+    
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="Port.js"></script>
+</body>
+</html>
